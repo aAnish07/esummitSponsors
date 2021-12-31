@@ -66,6 +66,7 @@
 
   .navbar-links {
     width: calc(100% - 220px);
+    max-width: 500px;
     display: flex;
     justify-content: space-around;
     align-items: center;
