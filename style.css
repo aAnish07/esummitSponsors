@@ -60,7 +60,7 @@
   .brand-title img {
     width: 150px;
     height: auto;
-    margin-top: 0.9rem;
+    margin: 0.9rem;
     cursor: pointer;
   }
 
@@ -87,7 +87,7 @@
   
   .toggle-button {
     position: absolute;
-    top: 1.5rem;
+    top: 2rem;
     right: 0.9rem;
     display: none;
     flex-direction: column;
@@ -208,11 +208,12 @@
 /* ======= Main ======= */
 
 main {
-  padding: 100px 0px;
+  padding: 80px 0px;
   background-color: #688883;
 }
 
 #mainHeading {
+  color: #191e32;
   text-align: center;
   font-size: 2.8rem;
   padding-bottom: 60px;
@@ -221,7 +222,7 @@ main {
 #mainHeading::after {
   content: "";
   display: block;
-  background-color: black;
+  background-color: #e7ddc4;
   width: 1.6rem;
   height: 7px;
   margin: auto;
@@ -259,7 +260,7 @@ main {
   position: absolute;
   bottom: 20px;
   color: rgb(80, 80, 80);
-  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 @media (min-width: 800px) and (max-width: 1200px) {
